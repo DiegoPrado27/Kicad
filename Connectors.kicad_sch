@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 3f9a9104-dcca-4c83-aab9-51d1c658f436)
+  (uuid 244a0cf4-4ec4-4abb-a72d-0e6118ab4bba)
 
   (paper "A4")
 
@@ -346,7 +346,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 111.76 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 09e808cb-9b3d-489a-b1df-5a679fac1950)
-    (property "Reference" "J?" (id 0) (at 113.03 84.9335 0))
+    (property "Reference" "J4" (id 0) (at 113.03 84.9335 0))
     (property "Value" "Conn_02x03_Odd_Even" (id 1) (at 113.03 87.7086 0))
     (property "Footprint" "" (id 2) (at 111.76 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -366,7 +366,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 107.95 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 60128933-bbeb-4064-9704-11d8c74241d4)
-    (property "Reference" "J?" (id 0) (at 108.585 63.2673 0))
+    (property "Reference" "J3" (id 0) (at 108.585 63.2673 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 109.22 64.77 0))
     (property "Footprint" "" (id 2) (at 107.95 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -384,7 +384,7 @@
   (symbol (lib_id "Connector:Conn_01x09_Male") (at 86.36 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 742a9aab-a67a-425b-97b2-92ae80069c02)
-    (property "Reference" "J?" (id 0) (at 86.995 82.3173 0))
+    (property "Reference" "J2" (id 0) (at 86.995 82.3173 0))
     (property "Value" "Conn_01x09_Male" (id 1) (at 87.63 83.82 0))
     (property "Footprint" "" (id 2) (at 86.36 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -407,7 +407,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 85.09 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a98f4846-5c74-40c5-a56a-96de5ff9edab)
-    (property "Reference" "J?" (id 0) (at 85.725 63.2673 0))
+    (property "Reference" "J1" (id 0) (at 85.725 63.2673 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 86.36 64.77 0))
     (property "Footprint" "" (id 2) (at 85.09 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
