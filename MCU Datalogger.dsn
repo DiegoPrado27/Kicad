@@ -14,29 +14,17 @@
         (index 0)
       )
     )
-    (layer In1.Cu
-      (type signal)
-      (property
-        (index 1)
-      )
-    )
-    (layer In2.Cu
-      (type signal)
-      (property
-        (index 2)
-      )
-    )
     (layer B.Cu
       (type signal)
       (property
-        (index 3)
+        (index 1)
       )
     )
     (boundary
       (path pcb 0  115570 -105410  64770 -105410  64770 -74930  115570 -74930
             115570 -105410)
     )
-    (via "Via[0-3]_800:400_um" "Via[0-3]_900:400_um")
+    (via "Via[0-1]_800:400_um" "Via[0-1]_900:400_um")
     (rule
       (width 250)
       (clearance 200.1)
@@ -435,8 +423,6 @@
             1245.68 1690.65  1459.9 1509.53  1648.08 1301.47  1806.84 1070.19
             1933.37 819.817  2025.38 554.81  2081.26 279.903  2100 0))
       (keepout "" (circle F.Cu 2100))
-      (keepout "" (circle In1.Cu 2100))
-      (keepout "" (circle In2.Cu 2100))
       (keepout "" (circle B.Cu 2100))
     )
     (image LED_SMD:LED_0805_2012Metric
@@ -485,8 +471,6 @@
     )
     (padstack Oval[A]Pad_1700x1700_um
       (shape (path F.Cu 1700  0 0  0 0))
-      (shape (path In1.Cu 1700  0 0  0 0))
-      (shape (path In2.Cu 1700  0 0  0 0))
       (shape (path B.Cu 1700  0 0  0 0))
       (attach off)
     )
@@ -549,22 +533,16 @@
     )
     (padstack Rect[A]Pad_1700x1700_um
       (shape (rect F.Cu -850 -850 850 850))
-      (shape (rect In1.Cu -850 -850 850 850))
-      (shape (rect In2.Cu -850 -850 850 850))
       (shape (rect B.Cu -850 -850 850 850))
       (attach off)
     )
-    (padstack "Via[0-3]_800:400_um"
+    (padstack "Via[0-1]_800:400_um"
       (shape (circle F.Cu 800))
-      (shape (circle In1.Cu 800))
-      (shape (circle In2.Cu 800))
       (shape (circle B.Cu 800))
       (attach off)
     )
-    (padstack "Via[0-3]_900:400_um"
+    (padstack "Via[0-1]_900:400_um"
       (shape (circle F.Cu 900))
-      (shape (circle In1.Cu 900))
-      (shape (circle In2.Cu 900))
       (shape (circle B.Cu 900))
       (attach off)
     )
@@ -679,7 +657,7 @@
     )
     (class kicad_default
       (circuit
-        (use_via Via[0-3]_800:400_um)
+        (use_via Via[0-1]_800:400_um)
       )
       (rule
         (width 250)
@@ -688,7 +666,7 @@
     )
     (class Power /Vcc GND
       (circuit
-        (use_via Via[0-3]_900:400_um)
+        (use_via Via[0-1]_900:400_um)
       )
       (rule
         (width 350)
