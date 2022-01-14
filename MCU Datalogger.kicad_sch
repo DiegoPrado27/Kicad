@@ -1544,7 +1544,7 @@
     (uuid 19c98a84-20a8-4af9-9cc1-9d31e850c8dd)
     (property "Reference" "U2" (id 0) (at 66.04 44.2173 0))
     (property "Value" "DS1337S+" (id 1) (at 66.04 46.9924 0))
-    (property "Footprint" "SOIC127P600X175-8N" (id 2) (at 66.04 63.5 0)
+    (property "Footprint" "digikey-footprints:SOIC127P600X175-8N" (id 2) (at 66.04 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 66.04 63.5 0)
@@ -1634,7 +1634,7 @@
     (uuid 25d9e195-a4aa-413a-8272-cdbb8630ad4f)
     (property "Reference" "U4" (id 0) (at 212.09 25.2435 0))
     (property "Value" "ATMEGA328-AU" (id 1) (at 212.09 28.0186 0))
-    (property "Footprint" "QFP80P900X900X120-32N" (id 2) (at 212.09 57.15 0)
+    (property "Footprint" "digikey-footprints:QFP80P900X900X120-32N" (id 2) (at 212.09 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 212.09 57.15 0)
@@ -2363,13 +2363,13 @@
       (reference "U1") (unit 1) (value "24LC1025") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
     )
     (path "/19c98a84-20a8-4af9-9cc1-9d31e850c8dd"
-      (reference "U2") (unit 1) (value "DS1337S+") (footprint "SOIC127P600X175-8N")
+      (reference "U2") (unit 1) (value "DS1337S+") (footprint "digikey-footprints:SOIC127P600X175-8N")
     )
     (path "/34ab20fe-5be7-4a63-8a85-5703b7882acf"
       (reference "U3") (unit 1) (value "24LC1025") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
     )
     (path "/25d9e195-a4aa-413a-8272-cdbb8630ad4f"
-      (reference "U4") (unit 1) (value "ATMEGA328-AU") (footprint "QFP80P900X900X120-32N")
+      (reference "U4") (unit 1) (value "ATMEGA328-AU") (footprint "digikey-footprints:QFP80P900X900X120-32N")
     )
     (path "/a107f895-390a-45c8-b926-bb94c406e415"
       (reference "Y1") (unit 1) (value "32.768KHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering")
